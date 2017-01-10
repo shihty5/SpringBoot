@@ -12,6 +12,15 @@ public class Girl {
 	private String cupSize;
 	private Integer age;
 
+	public Girl(){
+		
+	}
+	
+	public Girl(String cupSize, Integer age) {
+		this.cupSize = cupSize;
+		this.age = age;
+	}
+
 	public Integer getId() {
 		return id;
 	}
