@@ -1,0 +1,7 @@
+server:
+  port: 8888
+  context-path: /peter
+
+girl: 
+  cupSize: F
+  age: 18
