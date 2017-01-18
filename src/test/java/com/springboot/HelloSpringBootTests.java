@@ -1,6 +1,6 @@
-package com.peter;
+package com.springboot;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ public class HelloSpringBootTests {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(1,1);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.peter;
+package com.springboot;
 
 import java.util.List;
 

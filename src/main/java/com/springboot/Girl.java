@@ -1,4 +1,4 @@
-package com.peter;
+package com.springboot;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

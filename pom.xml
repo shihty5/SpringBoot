@@ -3,10 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>HelloSpringBoot</groupId>
 	<artifactId>HelloSpringBoot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
+	
 	<properties>
-
+		<sonar.sources>src/main</sonar.sources>
+		<sonar.tests>src/test</sonar.tests>
+		<start-class>com.springboot.HelloSpringBoot</start-class>
 	</properties>
+	
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
