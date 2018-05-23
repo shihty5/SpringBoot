@@ -1,10 +1,11 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:~/h2test
+    url: jdbc:h2:file:~/test
     username: sa
     password:
   jpa:
+    database: H2
     hibernate:
       ddl-auto: update
     show-sql: true
@@ -15,3 +16,16 @@ spring:
 
 server:
   port: 8888
+
+endpoints:
+  enabled: true
+  health:
+    enabled: true
+
+management:
+  # Binding health checks to a different port
+  port: 8082
+
+logging:
+  level:
+    root: INFO
