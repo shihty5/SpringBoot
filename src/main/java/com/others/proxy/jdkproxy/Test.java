@@ -1,7 +1,7 @@
-package com.proxy.jdkproxy;
+package com.others.proxy.jdkproxy;
 
-import com.proxy.Car;
-import com.proxy.Movable;
+import com.others.proxy.Car;
+import com.others.proxy.Movable;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

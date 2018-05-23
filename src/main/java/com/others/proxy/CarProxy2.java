@@ -1,4 +1,4 @@
-package com.proxy;
+package com.others.proxy;
 
 public class CarProxy2 implements Movable {
 

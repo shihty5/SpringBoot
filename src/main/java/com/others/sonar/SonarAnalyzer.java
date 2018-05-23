@@ -1,4 +1,4 @@
-package com.sonar;
+package com.others.sonar;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.sonar;
+package com.others.sonar;
 
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
@@ -15,7 +15,7 @@ import java.io.InputStream;
 
 public class SonarUtil {
     static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
-    private static final Logger Logger = LoggerFactory.getLogger(com.sonar.SonarAnalyzer.class);
+    private static final Logger Logger = LoggerFactory.getLogger(com.others.sonar.SonarAnalyzer.class);
 
     public static void getRequest(String reqUrl) throws IOException {
         GenericUrl url = new GenericUrl(reqUrl);
